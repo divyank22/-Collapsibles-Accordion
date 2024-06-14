@@ -9,7 +9,7 @@ defineProps({
 
 <template>
     <div class="max-w-lg mx-auto border px-6 py-4 rounded-lg">
-            <div class="text-lg font-medium text-gray-800" @section-toggled="handleSectionToggle">{{ title }}</div>
+            <div class="text-lg font-medium text-gray-800" >{{ title }}</div>
     <p class="text-lg leading-relaxed mb-6">{{ content }}</p>
     <div class="flex justify-between items-center">
         <div>
